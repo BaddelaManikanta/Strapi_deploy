@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacies",
+  "info": {
+    "singularName": "privacy",
+    "pluralName": "privacies",
+    "displayName": "Privacy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "More": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.common"
+    }
+  }
+}

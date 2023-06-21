@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_commons",
+  "info": {
+    "displayName": "Common"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    },
+    "CoverImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SeoInformation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.seo-information"
+    }
+  }
+}
